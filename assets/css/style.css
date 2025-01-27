@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 
 /* General Styles */
@@ -17,6 +16,29 @@ body {
   padding: 0;
   background-color: #f8f9fa; /* Light grey background */
   color: #333; /* Dark grey text */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333; /* Dark grey background */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #fff; /* White text */
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover {
+  color: #ffcc00; /* Highlight color on hover */
+}
+
+.navbar-toggler {
+  border: none; /* Removes border around hamburger icon */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2888, 88, 88, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 /* Header */
@@ -73,6 +95,44 @@ section#opening-date h3 {
 
 section#opening-date p {
   color: #555555; /* Medium grey text */
+}
+
+/* Menu Section */
+.menu-section {
+  margin-top: 2rem;
+}
+
+/* Filter Buttons */
+.filter-buttons button {
+  margin: 5px;
+}
+
+/* Menu Items */
+.menu-item {
+  display: none;
+}
+
+.menu-item.active {
+  display: block;
+}
+
+/* Menu Card Styles */
+.menu-card {
+  margin: 10px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.menu-item p {
+  font-size: 1rem;
+  color: #555;
 }
 
 /* Footer */
