@@ -40,12 +40,12 @@ header p {
 /* Main Content */
 main {
   flex: 1; /* Ensures the main section stretches to fill space */
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
 }
 
 section#about {
   background-color: #ffffff; /* White background */
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
@@ -64,6 +64,7 @@ section#opening-date {
   padding: 2rem;
   border-radius: 10px;
   border: 1px solid #dddddd; /* Light grey border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section#opening-date h3 {

@@ -15,17 +15,36 @@
       name="keywords"
       content="Castle Cafe, Northfields cafe, healthy food, breakfast in Northfields, lunch in Northfields, dinner in Northfields, take-away cafe Northfields, family-friendly cafe, local cafe in Northfields, healthy meals UK"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Castle Cafe</title>
+    <style>
+      .navbar {
+        background-color: #333; /* Dark grey background */
+      }
+      .navbar .nav-link,
+      .navbar .navbar-brand {
+        color: #fff; /* White text */
+      }
+      .navbar .nav-link:hover,
+      .navbar .dropdown-item:hover {
+        color: #ffcc00; /* Highlight color on hover */
+      }
+      .navbar-toggler {
+        border: none; /* Removes border around hamburger icon */
+      }
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2888, 88, 88, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+    </style>
   </head>
   <body>
+    <!-- Header Section -->
     <header class="bg-dark text-white py-3">
       <div class="container">
         <h1 class="text-center">
@@ -36,8 +55,75 @@
           Your cozy spot for healthy and delicious meals in Northfields
         </p>
       </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#allergens">Allergens</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="deliveryDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Delivery
+                </a>
+                <div class="dropdown-menu" aria-labelledby="deliveryDropdown">
+                  <a
+                    class="dropdown-item"
+                    href="https://www.ubereats.com"
+                    target="_blank"
+                    >Uber Eats</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="https://www.just-eat.co.uk"
+                    target="_blank"
+                    >Just Eat</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="https://www.deliveroo.co.uk"
+                    target="_blank"
+                    >Deliveroo</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
+    <!-- Main Content -->
     <main>
       <div class="container">
         <!-- About Section -->
@@ -60,19 +146,20 @@
           <h3 class="mb-3">Opening Date</h3>
           <p class="lead mb-0">
             We’re excited to announce that Castle Cafe will open its doors on
-            <strong>Febuary 1, 2025</strong>.
+            <strong>February 1, 2025</strong>.
           </p>
         </section>
       </div>
     </main>
 
+    <!-- Footer Section -->
     <footer>
       <div class="container">
         <p class="mb-1">&copy; 2025 Castle Cafe. All rights reserved.</p>
         <p class="mb-0">
           Find us at Northfields, UK |
           <a href="mailto:info@castlecafe.com" class="text-light"
-            >Add in the Email</a
+            >info@castlecafe.com</a
           >
         </p>
       </div>
