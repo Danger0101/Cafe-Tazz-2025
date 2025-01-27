@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light grey background */
+  color: #333; /* Dark grey text */
+}
+
+/* Header */
+header {
+  background-color: #ffffff; /* White background */
+  color: #333333; /* Dark grey text for contrast */
+  border-bottom: 1px solid #dddddd; /* Light grey border */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Main Content */
+main {
+  padding: 2rem 1rem;
+}
+
+section#about {
+  background-color: #ffffff; /* White background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+section#about h2 {
+  color: #333333;
+}
+
+section#about p {
+  color: #555555; /* Medium grey for text */
+  line-height: 1.6;
+}
+
+section#opening-date {
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #dddddd; /* Light grey border */
+}
+
+section#opening-date h3 {
+  color: #333333;
+}
+
+section#opening-date p {
+  color: #555555; /* Medium grey text */
+}
+
+/* Footer */
+footer {
+  background-color: #333333; /* Dark grey background */
+  color: #f8f9fa; /* Light grey text */
+  padding: 1.5rem 1rem;
+}
+
+footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.bg-light {
+  background-color: #f2f2f2 !important;
+}
+
+.bg-dark {
+  background-color: #333333 !important;
+  color: #f8f9fa !important;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.p-4 {
+  padding: 2rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+.lead {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
